@@ -47,7 +47,6 @@ def main():
             login = surname + str(logins_dict[surname])
 
         pupils_list.append(CPupil(surname, name, login))
-
         pupil_index += 1
 
     print("Логины:")
